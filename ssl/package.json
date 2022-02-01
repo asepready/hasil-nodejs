@@ -1,0 +1,27 @@
+{
+  "name": "ssl",
+  "version": "1.0.0",
+  "description": "Generate and use a SSL certificate in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asepready/node-ssl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asepready/node-ssl/issues"
+  },
+  "homepage": "https://github.com/asepready/node-ssl#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "helmet": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
