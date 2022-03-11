@@ -1,0 +1,39 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "standard",
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "standard"
+    ],
+    "overrides": [
+        {
+            "files": ["**/*.md/*.js"],
+            "rules": {
+                "strict": "off"
+            }
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        }
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "indent":["error", 2],
+        "linebreak-style":["error", "unix"],
+        "quotes":["error", "single"],
+        "semi":["error", "always"]
+    },
+    "globals": {
+        "__dirname":true
+    }
+}
